@@ -7,3 +7,4 @@ config.status
 src/.deps/**
 src/config.h
 src/stamp-h1
+*.class
