@@ -1,14 +1,2 @@
-config.log
-Makefile
-*.o
-src/jikes
-jikes
-config.status
-src/.deps/**
-src/config.h
-src/stamp-h1
 *.class
-compiler/src/.deps/**
-compiler/.configured
-bin/jikes
-compiler/src/config.h
+compiler/build/**
