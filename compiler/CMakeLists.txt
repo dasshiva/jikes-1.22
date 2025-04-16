@@ -44,4 +44,7 @@ add_executable(jikes src/ast.cpp
 	src/depend.cpp    
 	src/jikesapi.cpp  
 	src/segment.cpp)
-target_link_libraries(jikes iconv)
+
+if (NOT ${CMAKE_HOST_SYSTEM_PROCESSOR} STREQUAL "x86_64")
+    target_link_libraries(jikes iconv)
+endif()
